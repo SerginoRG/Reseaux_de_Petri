@@ -16,11 +16,11 @@
  */
 
 export const places = [
-  { id: 'P1', label: 'Clients en file d\'attente', shortLabel: 'Clients en file', icon: '👥' },
-  { id: 'P2', label: 'Caissier libre', shortLabel: 'Caissier libre', icon: '🧑‍💼' },
-  { id: 'P3', label: 'Paiement en cours', shortLabel: 'Paiement en cours', icon: '💳' },
-  { id: 'P4', label: 'Paiement validé', shortLabel: 'Paiement validé', icon: '✅' },
-  { id: 'P5', label: 'Clients repartis avec leur reçu', shortLabel: 'Clients repartis', icon: '🧾' },
+  { id: 'P1', label: 'Clients en file d\'attente', shortLabel: 'Clients en file', icon: 'users' },
+  { id: 'P2', label: 'Caissier libre', shortLabel: 'Caissier libre', icon: 'cashier' },
+  { id: 'P3', label: 'Paiement en cours', shortLabel: 'Paiement en cours', icon: 'payment' },
+  { id: 'P4', label: 'Paiement validé', shortLabel: 'Paiement validé', icon: 'validated' },
+  { id: 'P5', label: 'Clients repartis avec leur reçu', shortLabel: 'Clients repartis', icon: 'receipt' },
 ];
 
 export const transitions = [
